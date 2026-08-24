@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+    
+</head>
+<body>
+    <header class="glass">
+        <a href="/" class="logo">Rupesh Mishra.</a>
+        <nav>
+            <a href="/">Home</a>
+            
+            <a href="/admin">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        
+<section class="animate">
+    <h1>Extension Manager</h1>
+    <p style="color: #94a3b8; margin-bottom: 2rem;">Manage your portfolio's modular features.</p>
+    
+    <div class="glass" style="padding: 2rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h3>Installed Extensions</h3>
+            <button class="btn" onclick="alert('Upload functionality coming soon!')">+ Upload Extension (.zip)</button>
+        </div>
+
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Route</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td><strong>Projects Showcase</strong></td>
+                    <td>A beautiful grid of your recent work.</td>
+                    <td><a href="/ext_projects" style="color: var(--accent-color);">/ext_projects</a></td>
+                    <td><span style="color: #4ade80;">Active</span></td>
+                    <td>
+                        <button style="background: transparent; border: 1px solid #ef4444; color: #ef4444; padding: 0.25rem 0.5rem; border-radius: 4px; cursor: pointer;">Disable</button>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Contact Form</strong></td>
+                    <td>Allow visitors to send you messages directly.</td>
+                    <td><a href="/ext_contact" style="color: var(--accent-color);">/ext_contact</a></td>
+                    <td><span style="color: #4ade80;">Active</span></td>
+                    <td>
+                        <button style="background: transparent; border: 1px solid #ef4444; color: #ef4444; padding: 0.25rem 0.5rem; border-radius: 4px; cursor: pointer;">Disable</button>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Full Resume</strong></td>
+                    <td>Education, Skills, Achievements, and Coursework.</td>
+                    <td><a href="/ext_resume" style="color: var(--accent-color);">/ext_resume</a></td>
+                    <td><span style="color: #4ade80;">Active</span></td>
+                    <td>
+                        <button style="background: transparent; border: 1px solid #ef4444; color: #ef4444; padding: 0.25rem 0.5rem; border-radius: 4px; cursor: pointer;">Disable</button>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rupesh Mishra. M.Tech Student @ IIT Kanpur.</p>
+    </footer>
+    
+    
+</body>
+</html>

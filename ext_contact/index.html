@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+    
+</head>
+<body>
+    <header class="glass">
+        <a href="/" class="logo">Rupesh Mishra.</a>
+        <nav>
+            <a href="/">Home</a>
+            
+            <a href="/admin">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        
+<section class="animate" style="max-width: 600px; margin: 0 auto;">
+    <h1>Get In Touch</h1>
+    <p style="color: #94a3b8; margin-bottom: 2rem;">Have a project in mind? Let's work together.</p>
+    
+    <div class="glass" style="padding: 2rem;">
+        
+        
+        <form action="mailto:rmishra25@iitk.ac.in" method="GET" enctype="text/plain" style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required style="padding: 0.75rem; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(0,0,0,0.2); color: white; width: 100%;">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                <label for="body">Message</label>
+                <textarea id="body" name="body" rows="5" required style="padding: 0.75rem; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(0,0,0,0.2); color: white; width: 100%; resize: vertical;"></textarea>
+            </div>
+            <button type="submit" class="btn" style="border: none; cursor: pointer; font-size: 1rem;">Send Email</button>
+        </form>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rupesh Mishra. M.Tech Student @ IIT Kanpur.</p>
+    </footer>
+    
+    
+</body>
+</html>
